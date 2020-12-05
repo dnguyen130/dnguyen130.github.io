@@ -1,0 +1,476 @@
+body {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color:  rgb(167,89,66);
+}
+
+#hero {
+    background-image: url(imgs/homehero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#hero2 {
+    background-image: url(imgs/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nav a {
+    font-family: 'Mirza', cursive;
+    font-size: 10vw;
+    transition: 0.5s;
+    color: #d2ced6;
+}
+
+a:link {
+    text-decoration: none;
+    color: #d2ced6;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#d2ced6;
+}
+
+.nav a:hover {
+    font-size: 12vw;
+    color: white;
+}
+
+#HeroContainer {
+    background-color: rgba(167,89,66, 58%);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    display: flex;
+}
+
+#HeroContainer2 {
+    background-color: rgba(167,89,66, 58%);
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+#HeroContainer3 {
+    background-color: rgba(167,89,66, 58%);
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 0px;
+}
+
+#HeroText {
+    font-family: 'Mirza', cursive;
+    font-size: 10vw;
+    color: white;
+    text-shadow: 4px 4px black;
+    display: block;
+    margin: 0px auto;
+}
+
+#HeroText h1 {
+    margin: auto auto 2% auto;
+}
+
+#HeroText2 {
+    font-family: 'Mirza', cursive;
+    font-size: 9vw;
+    font-weight: medium;
+    color: white;
+    text-shadow: 4px 4px black;
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color:  rgb(167,89,66);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    height: 150px;
+}
+
+#footertext {
+    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
+    color: #d2ced6;
+    position: relative;
+    margin: auto auto 0px auto;
+}
+
+#footerlist {
+    font-family: 'Quicksand', sans-serif;
+    list-style-type: none;
+    line-height: 1.5;
+    color: rgb(167,89,66);
+    margin: 0 5% 0 0;
+    font-size: 24px;
+}
+#footericons {
+    display: inline;
+    list-style-type: none;
+    font-size: 10vw;
+    margin-top: 0px;
+    margin-right: 10px;
+    position: absolute;
+    right: 0px;
+}
+
+.inline {
+    display: inline;
+}
+
+#fade {
+    background-image: linear-gradient(rgba(0, 0, 0, .9) 45%, rgba(0, 0, 0, .65) 80%, rgba(0, 0, 0, .5));
+    width: 100%;
+    position: relative;
+}
+
+.hrhead {
+    margin-top: 20px;
+    border: 0px solid black;
+}
+
+.textcontainer {
+    background: rgba(0, 0, 0, 0.7);
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.textcontainer2 {
+    background: rgba(0, 0, 0, 0.7);
+    width: 40%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textcontainer3 {
+    background: rgba(0, 0, 0, 0.7);
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textcontainer h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;
+    color:white;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.textcontainer p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: white;
+    display: flex;
+}
+
+.AboutImg {
+    display: flex;
+    justify-content: center;
+}
+
+.AboutImg img {
+    width: 70%;
+    height: auto;
+    margin: 10px 20px 10px 10px;
+    border: 3px solid white;
+    border-radius: 20px;
+    display: flex;
+}
+
+#AboutHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#AboutHeadText {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid white;
+    margin: 20px 20px;
+    border-radius: 20px;
+    width: 80%;
+    vertical-align: middle;
+}
+
+#AboutHeadText ul {
+    font-family: 'Mirza', cursive;
+    font-size: 7vw;
+    color: white;
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Mirza', cursive;
+    font-size: 60px;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.AboutImgHead {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.AboutImgHead img {
+    width: 100%;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.aboutinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    Font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 0px;
+    line-height: 0px;
+}
+
+input[type=text] {
+    width: 88%;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 3px solid gray;
+}
+
+#Commentbox {
+    width: 80%;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 3px solid gray;
+    resize: none;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=submit] {
+    width: 100px;
+    height: 40px;
+    margin: 20px 10px 10px 10px;
+    font-family: "quicksand", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
+
+input[type=reset] {
+    width: 100px;
+    height: 40px;
+    margin: 20px 10px 10px 10px;
+    font-family: "quicksand", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#Reqinfo {
+    font-family: "quicksand", sans-serif;
+    color: white;
+    margin-left: 10%;
+    margin-top: 0px;
+}
+
+.mecenterpls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.metogetherpls {
+    margin-left: 10%;
+}
+
+.portfolioalbum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.folioholder {
+    display: flex;
+    position: relative;
+    margin: 50px 0 0 0;
+    width: 100%;
+    border: 5px solid black;
+}
+
+
+.folioholder img {
+    width: 100%;
+    height: auto;
+    transition-timing-function: 5s;
+    display: block;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+.folioholder:hover .overlay {
+    opacity: .8;
+}
+
+.overlaytitle {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 5vw;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+}
+
+.overlaytitle p {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.overlaytext {
+      font-family: 'Quicksand', sans-serif;
+      color: white;
+      font-size: 5vw;
+      position: absolute;
+      bottom: 2%;
+}
+
+.overlaytext p {
+      margin: 2%;
+}
+
+#center {
+    text-align: center;
+}
+
+.footerbox {
+    display: flex;
+}
+
+.footerboxlist {
+    display: flex;
+    margin-right: 4%;
+}
+
+.caption {
+    margin: 0 0 50px 0;
+    font-family: "quicksand", sans-serif;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 0 .7% 0 .7%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fade img {
+    height: 50%;
+    position: absolute;
+    display: none;
+}
+
+nav {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
